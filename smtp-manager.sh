@@ -23,7 +23,7 @@ sleep 3.5s
 echo
 echo
 #all the details in variable
-password=#byuser
+password=#byuser ##This password is set to confirm thats yo
 user=#byuser
 passw=#byuser
 server=#byuser
@@ -38,7 +38,7 @@ if [ $password = "$pass" ]
         echo -e "\e[36mServer : \e[91m$server"
         echo -e "\e[36mPorts : \e[91m$ports \e[0m"
 else
-        echo -e "\w[31m$name you entered wrong Password please retry "
+        echo -e "\e[31m$name you entered wrong Password please retry "
 fi
 echo
 echo
